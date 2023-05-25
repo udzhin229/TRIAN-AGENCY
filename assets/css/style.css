@@ -1154,7 +1154,7 @@ footer span, footer a {
         position: absolute;
         left: 0; 
         top: 20px;
-        z-index: 1;   
+        z-index: -1;   
     }
     .mobile .footer__inner .logo {
         max-width: 170px;
