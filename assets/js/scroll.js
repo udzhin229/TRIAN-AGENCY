@@ -11,3 +11,15 @@ $(document).ready(function() {
         }, 500);
     })
 });
+$(window).on('load scroll', function() {
+    $('.anim').each(function() {
+        var elementTop = $(this).offset().top;
+        var elementBottom = elementTop + $(this).outerHeight();
+        var viewportTop = $(window).scrollTop();
+        var viewportBottom = viewportTop + $(window).height();
+
+        if (elementBottom > viewportTop && elementTop < viewportBottom) {
+            $(this).addClass('show');
+        }
+    });
+});
