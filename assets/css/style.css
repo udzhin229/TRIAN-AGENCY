@@ -340,6 +340,7 @@ header {
     padding: 45px 35px 32px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 27px;
     border-radius: 70px 70px 70px 0px;
     -webkit-border-radius: 70px 70px 70px 0px;
