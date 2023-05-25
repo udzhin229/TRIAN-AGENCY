@@ -769,7 +769,7 @@ footer span, footer a {
     .about .about__inner .art span {
         font-size: 19px;
         line-height: 23px;
-        width: 100px;
+        width: 70px;
     }
     .about .about__inner .texts {
         gap: 16px;
@@ -1009,6 +1009,11 @@ footer span, footer a {
     .about .about__inner .art {
         width: 362px;
         height: 362px;
+    }
+    .about .about__inner .art span {
+        font-size: 23.9327px;
+        line-height: 29px;
+        width: 70px;
     }
     .about .about__inner .texts {
         max-width: 362px;
