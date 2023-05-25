@@ -21,5 +21,8 @@ $(window).on('load scroll', function() {
         if (elementBottom > viewportTop && elementTop < viewportBottom) {
             $(this).addClass('show');
         }
+        // else {
+        //     $(this).removeClass('show');
+        // }
     });
 });
