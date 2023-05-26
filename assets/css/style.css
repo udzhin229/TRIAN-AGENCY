@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
 section {
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .anim {
     opacity: 0;
@@ -1082,7 +1082,8 @@ footer span, footer a {
         gap: 10px;
     }
     .reviews__inner .reviews__blocks {
-        flex-direction: column;
+        overflow-x: scroll;
+        align-self: normal;
     }
     .reviews .art {
         display: none;
@@ -1118,6 +1119,7 @@ footer span, footer a {
         width: 362px;
     }
     .reviews__inner .reviews__blocks .block .area {
+        width: 362px;
         min-height: 343px;
         padding: 30px 35px;
         gap: 10px;
